@@ -1,6 +1,5 @@
     #---------------------------------------------------
     # Practical Worksheet 6: if statements and for loops
-    # Jonathon (Jono) Carter, 896692
     # November 2018
     #---------------------------------------------------
 
