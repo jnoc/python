@@ -15,3 +15,6 @@ def megabyteConvert():
   print("\t" + str(megabyte), "MB")
   print("\t" + str(gigabyte), "GB")
   print("\t" + str(terabyte), "TB")
+def main():
+  def megabyteConvert()
+main()
