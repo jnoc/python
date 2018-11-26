@@ -24,6 +24,7 @@ def simulateFlips(amount):
 def displayResults(heads, tails):
     # this shows the proportion of the heads to tails ie how many heads to tails that were flipped
     print("Heads", round(heads, 3), ":", "Tails", round(tails, 3))
+    input("\nPress enter to close...")
 
 def main():
     # executes the program

@@ -10,12 +10,15 @@ def megabyteConvert():
   bit = float(megabyte) * 8388608
 
   print("Your conversons are:\n")
-  print("\t" + str(bit), "b")
-  print("\t" + str(byte), "B")
-  print("\t" + str(kilobyte), "KB")
-  print("\t" + str(megabyte), "MB")
-  print("\t" + str(gigabyte), "GB")
-  print("\t" + str(terabyte), "TB")
+  print("\t" + str(round(bit, 7)), "b")
+  print("\t" + str(round(byte, 7)), "B")
+  print("\t" + str(round(kilobyte, 7)), "KB")
+  print("\t" + str(round(megabyte, 7)), "MB")
+  print("\t" + str(round(gigabyte, 7)), "GB")
+  print("\t" + str(round(terabyte, 7)), "TB")
+  
+  input("\n"+"Press enter to close...")
+  
 def main():
   megabyteConvert()
 main()
